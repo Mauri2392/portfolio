@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+    <title>Porfolio</title>
+  </head>
+  <body>
+    <!----------------------------- Nav ---------------------------------------->
+    <header class="header">
+      <a href="#home" class="logo"> Mauri<span>Programa</span> </a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <!-- <a href="#skills">Skills</a> -->
+        <a href="#projects">Porfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <!----------------------------- End Nav ------------------------------------>
+
+    <!---------------------- Start Home Section -------------------------------->
+    <main>
+      <section class="home" id="home">
+        <div class="home-content">
+          <h1>Hi, im <span>Mauricio</span></h1>
+          <h3>I`m a <span>web developer</span></h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+            beatae quos debitis dignissimos delectus libero sit, velit ducimus
+            mollitia perferendis <br />
+            corrupti dolores!
+          </p>
+
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+
+          <div class="btn-group">
+            <a href="#" class="btn">Hire</a>
+            <a href="#contact" class="btn">Contact</a>
+          </div>
+        </div>
+
+        <div class="home-img">
+          <img src="./img/sentado2-removebg-preview.png" alt="" />
+        </div>
+      </section>
+      <!---------------------- End Home Section------------------------------->
+
+      <!---------------------- Start AboutSection -------------------------------->
+      <section class="about" id="about">
+        <div class="about-img">
+          <img src="./img/basquet3.jpeg" alt="" width="300px" height="400px" />
+        </div>
+
+        <div class="about-content">
+          <h2 class="heading">About Me</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+            incidunt maiores modi rem nemo similique illum a impedit, laborum
+            harum, earum, eaque amet sint nesciunt maxime excepturi sunt?
+            Temporibus autem porro neque perspiciatis repellat, repellendus vel
+            quibusdam omnis exercitationem
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </section>
+
+      <!---------------------- End About Section------------------------------->
+
+
+
+      <!---------------------- Start Skills Section -------------------------------->
+      <!--------------- <section class="skills" id="skills"></section>------------>
+      <!---------------------- End Skills Section------------------------------->
+
+
+
+      <!---------------------- Start Projects Section -------------------------------->
+      <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="projects-box">
+          <div class="project-card">
+            <h3>Landing Page</h3>
+            <img
+              src="./img/pgn6.png"
+              alt="" 
+            />
+            <a href="https://taller-css-ademass.netlify.app/" target="_blank"><div class="btn">Mirar</div></a>
+          </div>
+
+          <div class="project-card">
+            <h3>Landing Page 2</h3>
+            <img
+              src="./img/pgn5.png"
+              alt=""
+            />
+            <a href="https://nucba-project-landing-boostrap.netlify.app/" target="_blank"><div class="btn">Mirar</div></a>
+          </div>
+
+          <div class="project-card">
+            <h3>Landing Page 3</h3>
+            <img
+              src="./img/pgn6.png"
+              alt=""
+            />
+            <a href="https://www.google.com/" target="_blank"><div class="btn">Mirar</div></a>
+          </div>
+
+          <div class="project-card">
+            <img
+              src="./img/WhatsApp Image 2024-04-02 at 5.08.19 PM.jpeg"
+              alt=""
+            />
+            <h3>Landing Page 4</h3>
+            <a href="https://www.google.com/" target="_blank"><div class="btn">Demo</div></a>
+          </div>
+
+          <div class="project-card">
+            <img
+              src="./img/WhatsApp Image 2024-04-02 at 5.08.19 PM.jpeg"
+              alt=""
+            />
+            <h3>Landing Page 5</h3>
+            <a href="https://www.google.com/" target="_blank"><div class="btn">Demo</div></a>
+          </div>
+
+          <div class="project-card">
+            <img
+              src="./img/WhatsApp Image 2024-04-02 at 5.08.19 PM.jpeg"
+              alt=""
+            />
+            <h3>Landing Page 6</h3>
+            <a href="https://www.google.com/" target="_blank"><div class="btn">Demo</div></a>
+          </div>
+        </div>
+      </section>
+      <!---------------------- End Projects Section------------------------------->
+
+      <!---------------------- Start Contact Section -------------------------------->
+      <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span>
+        </h2>
+
+        <form action="#">
+          <div class="input-group">
+            <div class="input-box">
+              <input type="text" placeholder="Full Name">
+              <input type="email" placeholder="Email">
+            </div>
+
+            <div class="input-box">
+              <input type="number" placeholder="Phone Number">
+              <input type="text" placeholder="Subject">
+            </div>
+          </div>
+
+          <div class="input-group-2">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send" class="btn">
+          </div>
+        </form>
+      </section>
+      <!---------------------- End Contact Section------------------------------->
+    </main>
+
+    <!---------------------- Start Footer -------------------------------->
+    <footer>
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+
+      <ul class="list">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </footer>
+    <!---------------------- End Footer -------------------------------->
+
+    <script src="script.js"></script>
+  </body>
+</html>
