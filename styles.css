@@ -452,14 +452,10 @@ footer ul li a:hover {
         font-size: 55%;
     }
     .projects-box {
-        grid-template-columns: repeat(1,1fr);
-        margin: 0 5rem;
+        grid-template-columns: repeat(2,1fr);
     }
     .projects-box img {
-        min-width: 30vw;
-    }
-    .projects .heading {
-        margin-bottom: 6rem;
+        min-width: 50vw;
     }
 }
 
@@ -473,6 +469,11 @@ footer ul li a:hover {
     .contact form {
         flex-direction: column;
     }
+    
+    .footer {
+        padding: 2rem 3%;
+    }
+    /* 
     .home {
         flex-direction: column-reverse;
     }
@@ -504,12 +505,92 @@ footer ul li a:hover {
     }
     .about-content .heading {
         text-align: center;
-    }
+    } */ 
+
+
 }
 
 @media(max-width:895px) {
     #menu-icon {
         display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 50%;
+        padding: 1rem 3%;
+        background: rgba(0, 0, 0, 0.8); 
+        backdrop-filter: blur(20px);
+        border-bottom-left-radius: 2rem;
+        border-left: 2px solid var(--main-color);
+        border-bottom: 2px solid var(--main-color);
+        display: none;
+    }
+    .navbar.active {
+        display: block;
+    }
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        color: blue;
+    }
+    .home {
+        flex-direction: column-reverse;
+        margin: 5rem 4rem;
+        gap: 3rem;
+    }
+    .home-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .home-content h3 {
+        font-size: 2.6rem;
+    }
+    .home-content h1 {
+        font-size: 5rem;
+        margin-top: 1rem;
+    }
+    .home-content p {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .home-img img {
+       width: 100%;
+       margin: 1rem 0;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 9rem 9% 9rem;
+    }
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .about-content h2 {
+        font-size: 5rem;
+    }
+    
+    .about .heading {
+        margin: 0rem 0; 
+    } 
+    .about-img {
+        width: 50vw;
+    }
+    .projects-box {
+        grid-template-columns: repeat(1,1fr);
     }
 }
 /* ------------------------------- End Media Screen ------------------------- */ 
