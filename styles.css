@@ -259,8 +259,13 @@ h3 span {
 .heading {
     text-align: center;
     font-size: 6rem;
-    margin: 5rem o;
 }
+
+.heading2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
 
 .about-content h2 {
     text-align: left;
