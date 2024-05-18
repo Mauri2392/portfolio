@@ -97,7 +97,7 @@ body {
 /* ------------------------------- Start Home ------------------------- */ 
 section {
     min-height: 100vh;
-    padding: 10rem 12% 10rem; /* Separa para abnajo el contenido*/ 
+    padding: 10rem 12% 10rem; /* Separa para abajo el contenido*/ 
 } 
 
 .home { /* Separo los 4 div de la seccion*/
@@ -110,8 +110,8 @@ section {
 .home-content {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    text-align: right;
+    align-items: center;
+    text-align: center;
     justify-content: center;
 } 
 
@@ -143,6 +143,8 @@ h3 span {
 .home-content p {
     font-size: 1.8rem;
     margin: 0.5rem;
+    width: 90%;
+
 } 
 
 .home-img {
@@ -151,7 +153,7 @@ h3 span {
 
 .home-img img{
     position: relative;
-    width: 50vh;
+    width: 60vh;
     border-radius: 50%;
     cursor: pointer;
     box-shadow: 0 0 25px var(--main-color);
@@ -210,6 +212,7 @@ h3 span {
 .btn:hover {
     transform: scale(1.05);
     box-shadow: 0 0 50xp var(--main-color);
+    border: 2px solid black;
 }
 
 .btn-group a:nth-of-type(2) {
@@ -223,6 +226,7 @@ h3 span {
     box-shadow: 0 0 25xp var(--main-color);
     background-color: var(--main-color);
     color: black;
+    border: 2px solid black;
 }
 /* ------------------------------- End Home ------------------------- */ 
 
@@ -237,7 +241,7 @@ h3 span {
 }
 
 .about-img {
-    width: 50%;
+    width:50%;
 }
 
 .about-img img {
